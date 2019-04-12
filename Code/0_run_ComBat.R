@@ -13,7 +13,7 @@ library(GWASTools)
 ####################################################################
 #load needed data:
 ####################################################################
-prepared_dat_folder <- "/data/linkage/MESA2/Projects/2018_sleepiness_methylation/Helper_data"
+prepared_dat_folder <- "/Helper_data" ## some of the data is not available in the public repository
 # phenbotypes
 thepheno <- getobj(file.path(prepared_dat_folder, 'pheno_used_in_final_analysis.RData'))
 thepheno <- as.data.frame(thepheno)

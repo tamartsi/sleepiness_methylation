@@ -2,9 +2,9 @@
 library(qvalue)
 require(GWASTools)
 
-indata_folder <- "/data/linkage/MESA2/Projects/2018_sleepiness_methylation/Helper_data"
-results_folder <- "/data/linkage/MESA2/Projects/2018_sleepiness_methylation/Results"
-PCs_folder <- "/data/linkage/MESA2/Genotypes/PCs_from_Yongmei"
+indata_folder <- "/Helper_data"  ## some of the data is not available in the public repository
+results_folder <- "/Results"
+PCs_folder <- "/PCs_from_Yongmei"  ## Mot available in the public repository
 
 ### read methylation data an dphenotypes. 
 
